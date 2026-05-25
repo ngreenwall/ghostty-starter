@@ -1,14 +1,18 @@
 # Ghostty Starter Kit
 
-A beginner-friendly starting point for [Ghostty](https://ghostty.org), the fast, native macOS terminal app built by Mitchell Hashimoto. Includes a clean terminal config and a solid `.zshrc` to pair with it, both heavily commented so you understand what you're setting up, not just that it works.
+The default macOS terminal looks like it hasn't changed since 1995. For designers and people new to the command line, that's enough to make it feel unapproachable before you've typed a single thing.
+
+[Ghostty](https://ghostty.org) fixes that. It's a fast, native macOS terminal built by Mitchell Hashimoto that you can customize completely: colors, fonts, padding, blur effects, cursor style. It can look like a real design tool instead of a leftover system utility.
+
+This repo gives you a commented starting point so you're not staring at a blank config file.
 
 ---
 
 ## Who this is for
 
-You've heard about Ghostty, you've installed it, and now you're staring at a blank config file. Or maybe you're still on Terminal.app or iTerm and want to see what a modern setup looks like before you commit. Either way, this gives you a sane starting point you can build on.
+Designers, creatives, and anyone new to the terminal who wants a setup that looks intentional. No prior terminal configuration experience needed.
 
-No prior terminal configuration experience needed.
+If you already have a working config, there may still be settings here worth borrowing.
 
 ---
 
