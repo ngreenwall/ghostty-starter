@@ -86,6 +86,8 @@ Your config file lives at: `~/.config/ghostty/config`
 
 The Ghostty theme uses a 16-color palette inspired by Claude's brand colors: warm dark backgrounds, muted accent tones, and soft contrast that's easy on the eyes during long sessions.
 
+![Claude Style Colors — Ghostty Palette](palette-preview.png)
+
 | Role | Color |
 |---|---|
 | Background | `#1C1B1A` |
