@@ -10,7 +10,7 @@ It's a fast, native macOS terminal built by Mitchell Hashimoto (creator of Vagra
 
 I put together two starter files so you don't have to figure out the config from scratch:
 
-**ghostty.config** — covers colors, font, window padding, cursor style, URL linking, and keybindings. Includes a color palette built around Claude's brand colors: warm neutrals, soft accents, and good contrast. Every setting has a plain-language comment so you know what you're changing.
+**ghostty.config** — covers colors, font, window padding, cursor style, URL linking, and keybindings. For colors, you have two options: use the included Claude-inspired palette (warm neutrals, soft accents, good contrast), or swap it for any of Ghostty's hundreds of built-in themes with a single line. Every setting has a plain-language comment so you know what you're changing.
 
 **starter.zshrc** — the shell config that pairs with it. Covers the basics: history, tab completion, useful aliases, and a simple prompt. Written for humans, not just developers.
 

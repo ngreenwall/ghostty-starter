@@ -45,7 +45,7 @@ Ghostty will download and install automatically. No dragging, no `.dmg` files. T
 ## What's included
 
 **`ghostty.config`**
-Your Ghostty settings file. Covers colors, font, window padding, cursor style, shell integration, URL linking, scrollback, and keybindings. Every setting has a comment explaining what it does and why you'd want it.
+Your Ghostty settings file. Covers colors, font, window padding, cursor style, shell integration, URL linking, scrollback, and keybindings. Includes two color options: a custom Claude-inspired palette or a single line to use any built-in theme. Every setting has a comment explaining what it does and why you'd want it.
 
 **`starter.zshrc`**
 A shell configuration file for zsh (the default shell on macOS). Covers environment setup, PATH management, command history, tab completion, Node version management via fnm, useful aliases, and a simple prompt. Written for humans, not just developers.
@@ -84,7 +84,19 @@ Your config file lives at: `~/.config/ghostty/config`
 
 ## The color palette
 
-The Ghostty theme uses a 16-color palette inspired by Claude's brand colors: warm dark backgrounds, muted accent tones, and soft contrast that's easy on the eyes during long sessions.
+The config gives you two paths. Pick the one that fits how much you want to customize.
+
+**Option 1: Use a built-in theme**
+
+Ghostty ships with hundreds of built-in themes. Preview them visually at [iterm2colorschemes.com](https://iterm2colorschemes.com), find the name you want at [ghostty.org/docs/features/theme](https://ghostty.org/docs/features/theme), then add one line to your config:
+
+```
+theme = TokyoNight
+```
+
+**Option 2: Use the Claude-inspired palette (default)**
+
+A custom 16-color palette built around Claude's brand colors: warm dark backgrounds, muted accent tones, and soft contrast that's easy on the eyes during long sessions.
 
 ![Claude Style Colors — Ghostty Palette](palette-preview.png)
 
@@ -99,14 +111,6 @@ The Ghostty theme uses a 16-color palette inspired by Claude's brand colors: war
 | Cyan (paths) | `#7AABAA` |
 
 All values are in the config file. Swap any hex code to make the palette your own.
-
-Prefer to skip the manual color work? Ghostty has a large library of built-in themes you can apply with a single line. You can preview them visually at [iterm2colorschemes.com](https://iterm2colorschemes.com), then browse the full list of Ghostty-supported names at [ghostty.org/docs/features/theme](https://ghostty.org/docs/features/theme). Once you find one you like, add this to your config:
-
-```
-theme = TokyoNight
-```
-
-Replace `TokyoNight` with any theme name from the list.
 
 ---
 
