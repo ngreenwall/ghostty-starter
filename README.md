@@ -6,6 +6,8 @@ The default macOS terminal looks like it hasn't changed since 1995. For designer
 
 This repo gives you a commented starting point so you're not staring at a blank config file.
 
+> **macOS only.** Ghostty is a native Mac app. These instructions assume you're on a Mac.
+
 ---
 
 ## Who this is for
@@ -18,13 +20,13 @@ If you already have a working config, there may still be settings here worth bor
 
 ## Installing Ghostty
 
-**Option 1: Download directly**
+**Option 1: Download directly (easiest)**
 
-Go to [ghostty.org](https://ghostty.org) and download the macOS app. Open the `.dmg` file and drag Ghostty to your Applications folder. This is the fastest way to get started.
+Go to [ghostty.org](https://ghostty.org) and download the macOS app. Open the `.dmg` file and drag Ghostty to your Applications folder. Done.
 
-**Option 2: Install via Homebrew (recommended for beginners)**
+**Option 2: Install via Homebrew (for those who want to go deeper)**
 
-If you want to start getting comfortable with the terminal, installing Ghostty through Homebrew is a great first step. Homebrew is a free tool that lets you install software from the command line.
+Homebrew is a free tool that lets you install software from the command line. If you want to start building that habit, installing Ghostty this way is a good first rep.
 
 First, install Homebrew if you don't have it. Open Terminal (the default macOS app) and paste this:
 
@@ -38,7 +40,7 @@ It will walk you through the setup. Once Homebrew is installed, run:
 brew install --cask ghostty
 ```
 
-Ghostty will download and install automatically. No dragging, no `.dmg` files. This is how most developers install apps, and getting comfortable with it early pays off quickly.
+Ghostty will download and install automatically. No dragging, no `.dmg` files.
 
 ---
 
@@ -56,19 +58,19 @@ A shell configuration file for zsh (the default shell on macOS). Covers environm
 
 ### Ghostty config
 
-1. Open Ghostty. In the menu bar, click **Ghostty** and select **Settings**. This opens your config file automatically.
-2. Copy the contents of `ghostty.config` from this repo into that file.
-3. Save it. Most changes take effect the next time you open a Ghostty window. Some apply immediately.
+1. In this repo, click the `ghostty.config` file, then click the **Raw** button (top right of the file view). That opens the plain text file. Select all and copy it.
+2. Open Ghostty. In the menu bar, click **Ghostty** and select **Settings**. This opens your config file automatically.
+3. Paste the copied text in, then save. Most changes take effect the next time you open a Ghostty window. Some apply immediately.
 
 Your config file lives at: `~/.config/ghostty/config`
 
 ### .zshrc
 
-1. Open your terminal and run this command to open your existing `.zshrc` file in VS Code:
+1. Open your terminal and run this command to open your existing `.zshrc` file in your default text editor:
    ```
-   code ~/.zshrc
+   open ~/.zshrc
    ```
-   If you don't have VS Code, you can use any text editor. The file is at your home folder root.
+   If you have VS Code and want to use that instead, run `code ~/.zshrc`.
 
 2. If the file is empty, paste in the full contents of `starter.zshrc` from this repo.
 
@@ -100,23 +102,13 @@ A custom 16-color palette built around Claude's brand colors: warm dark backgrou
 
 ![Claude Style Colors — Ghostty Palette](palette-preview.png)
 
-| Role | Color |
-|---|---|
-| Background | `#1C1B1A` |
-| Foreground | `#F2EDE6` |
-| Cursor | `#DA7756` |
-| Red (errors) | `#DA7756` |
-| Green (success) | `#6B9E7A` |
-| Blue (links) | `#8B9DC3` |
-| Cyan (paths) | `#7AABAA` |
-
-All values are in the config file. Swap any hex code to make the palette your own.
+All hex values are in the config file with labels. Swap any color to make the palette your own.
 
 ---
 
 ## Where to go next
 
-- **Custom font:** Set `font-family` to any monospace font installed on your Mac. Popular picks include [JetBrains Mono](https://www.jetbrains.com/lp/mono/), [Fira Code](https://github.com/tonsky/FiraCode), and [Maple Mono](https://github.com/subframe7536/maple-font).
+- **Custom font:** Set `font-family` to any monospace font installed on your Mac. Popular picks include [JetBrains Mono](https://www.jetbrains.com/lp/mono/), [Fira Code](https://github.com/tonsky/FiraCode), and [Maple Mono](https://github.com/subframe7536/maple-font). To install: download the font, open the file, and click Install Font. Then add the font name to your config exactly as it appears in Font Book.
 - **Custom prompt:** The starter prompt is minimal by design. When you're ready for something more powerful, look at [Starship](https://starship.rs). It's easy to install and works great with Ghostty.
 - **Full Ghostty docs:** [ghostty.org/docs](https://ghostty.org/docs)
 - **Full config reference:** [ghostty.org/docs/config](https://ghostty.org/docs/config)
