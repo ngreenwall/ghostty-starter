@@ -1,6 +1,6 @@
 # Ghostty Starter Kit
 
-A beginner-friendly starting point for [Ghostty](https://ghostty.org), the fast, native macOS terminal app built by Mitchell Hashimoto. Includes a clean terminal config and a solid `.zshrc` to pair with it — both heavily commented so you understand what you're setting up, not just that it works.
+A beginner-friendly starting point for [Ghostty](https://ghostty.org), the fast, native macOS terminal app built by Mitchell Hashimoto. Includes a clean terminal config and a solid `.zshrc` to pair with it, both heavily commented so you understand what you're setting up, not just that it works.
 
 ---
 
@@ -73,7 +73,7 @@ All values are in the config file. Swap any hex code to make the palette your ow
 ## Where to go next
 
 - **Custom font:** Set `font-family` to any monospace font installed on your Mac. Popular picks include [JetBrains Mono](https://www.jetbrains.com/lp/mono/), [Fira Code](https://github.com/tonsky/FiraCode), and [Maple Mono](https://github.com/subframe7536/maple-font).
-- **Custom prompt:** The starter prompt is minimal by design. When you're ready for something more powerful, look at [Starship](https://starship.rs) — it's easy to install and works great with Ghostty.
+- **Custom prompt:** The starter prompt is minimal by design. When you're ready for something more powerful, look at [Starship](https://starship.rs). It's easy to install and works great with Ghostty.
 - **Full Ghostty docs:** [ghostty.org/docs](https://ghostty.org/docs)
 - **Full config reference:** [ghostty.org/docs/config](https://ghostty.org/docs/config)
 
