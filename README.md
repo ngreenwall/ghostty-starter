@@ -100,7 +100,7 @@ The Ghostty theme uses a 16-color palette inspired by Claude's brand colors: war
 
 All values are in the config file. Swap any hex code to make the palette your own.
 
-Prefer to skip the manual color work? Ghostty has a large library of built-in themes you can apply with a single line. Browse them at [ghostty.org/docs/features/theme](https://ghostty.org/docs/features/theme), then add this to your config:
+Prefer to skip the manual color work? Ghostty has a large library of built-in themes you can apply with a single line. You can preview them visually at [iterm2colorschemes.com](https://iterm2colorschemes.com), then browse the full list of Ghostty-supported names at [ghostty.org/docs/features/theme](https://ghostty.org/docs/features/theme). Once you find one you like, add this to your config:
 
 ```
 theme = TokyoNight
