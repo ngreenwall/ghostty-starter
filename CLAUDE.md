@@ -8,9 +8,11 @@ A public starter kit for [Ghostty](https://ghostty.org), the native macOS termin
 
 ## Files
 
-- `ghostty.config` — Ghostty settings file. Installs to `~/.config/ghostty/config`
+- `ghostty.config` — Ghostty settings file. Open via Ghostty menu bar > Settings (do not reference a file path -- the old `~/.config/ghostty/config` path is no longer accurate on Mac)
 - `starter.zshrc` — Shell config. Installs to `~/.zshrc`
 - `README.md` — Setup instructions and color palette reference for GitHub visitors
+
+Check `docs/CONTEXT.md` for recent session notes before starting work.
 
 ## Working in this repo
 
