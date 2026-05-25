@@ -16,6 +16,32 @@ If you already have a working config, there may still be settings here worth bor
 
 ---
 
+## Installing Ghostty
+
+**Option 1: Download directly**
+
+Go to [ghostty.org](https://ghostty.org) and download the macOS app. Open the `.dmg` file and drag Ghostty to your Applications folder. This is the fastest way to get started.
+
+**Option 2: Install via Homebrew (recommended for beginners)**
+
+If you want to start getting comfortable with the terminal, installing Ghostty through Homebrew is a great first step. Homebrew is a free tool that lets you install software from the command line.
+
+First, install Homebrew if you don't have it. Open Terminal (the default macOS app) and paste this:
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+It will walk you through the setup. Once Homebrew is installed, run:
+
+```
+brew install --cask ghostty
+```
+
+Ghostty will download and install automatically. No dragging, no `.dmg` files. This is how most developers install apps, and getting comfortable with it early pays off quickly.
+
+---
+
 ## What's included
 
 **`ghostty.config`**
