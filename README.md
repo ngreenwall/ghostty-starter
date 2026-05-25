@@ -56,7 +56,7 @@ A shell configuration file for zsh (the default shell on macOS). Covers environm
 
 ### Ghostty config
 
-1. Open Ghostty. In the menu bar, go to **Ghostty > Settings** or press `Cmd+,` (comma). This creates and opens your config file automatically.
+1. Open Ghostty. In the menu bar, click **Ghostty** and select **Settings**. This opens your config file automatically.
 2. Copy the contents of `ghostty.config` from this repo into that file.
 3. Save it. Most changes take effect the next time you open a Ghostty window. Some apply immediately.
 
