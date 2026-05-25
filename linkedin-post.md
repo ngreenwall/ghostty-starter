@@ -12,7 +12,7 @@ I put together two starter files so you don't have to figure out the config from
 
 **ghostty.config** — covers colors, font, window padding, cursor style, URL linking, and keybindings. For colors, you have two options: use the included Claude-inspired palette (warm neutrals, soft accents, good contrast), or swap it for any of Ghostty's hundreds of built-in themes with a single line. Every setting has a plain-language comment so you know what you're changing.
 
-**starter.zshrc** — the shell config that pairs with it. Covers the basics: history, tab completion, useful aliases, and a simple prompt. Written for humans, not just developers.
+**starter.zshrc** — the shell config that pairs with it. Covers the basics: history, tab completion, a Homebrew update shortcut, and a simple prompt. Written for humans, not just developers.
 
 A few things worth setting up right from the start:
 

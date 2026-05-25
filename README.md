@@ -47,7 +47,7 @@ Ghostty will download and install automatically. No dragging, no `.dmg` files.
 ## What's included
 
 **`ghostty.config`**
-Your Ghostty settings file. Covers colors, font, window padding, cursor style, shell integration, URL linking, scrollback, and keybindings. Includes two color options: a custom Claude-inspired palette or a single line to use any built-in theme. Every setting has a comment explaining what it does and why you'd want it.
+Your Ghostty settings file. Covers colors, font, window padding, split panes, cursor style, shell integration, URL linking, and keybindings. Includes two color options: a custom Claude-inspired palette or a single line to use any built-in theme. Every setting has a comment explaining what it does and why you'd want it.
 
 **`starter.zshrc`**
 A shell configuration file for zsh (the default shell on macOS). Covers language settings, Homebrew setup, command history, tab completion, a Homebrew update alias, and a simple prompt. Written for humans, not just developers.

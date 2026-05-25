@@ -39,7 +39,7 @@ setopt HIST_IGNORE_SPACE
 
 
 # --- TAB COMPLETION ----------------------------------------------------------
-# This enables smart tab completion — press Tab and your terminal will try to
+# This enables smart tab completion. Press Tab and your terminal will try to
 # finish the command, file name, or flag you're typing.
 # The "if" block checks whether the completion cache is stale (older than 24 hours)
 # and only rebuilds it when necessary, which keeps your shell startup fast.
