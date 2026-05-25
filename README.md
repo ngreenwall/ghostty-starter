@@ -62,8 +62,6 @@ A shell configuration file for zsh (the default shell on macOS). Covers environm
 2. Open Ghostty. In the menu bar, click **Ghostty** and select **Settings**. This opens your config file automatically.
 3. Paste the copied text in, then save. Most changes take effect the next time you open a Ghostty window. Some apply immediately.
 
-Your config file lives at: `~/.config/ghostty/config`
-
 ### .zshrc
 
 1. Open your terminal and run this command to open your existing `.zshrc` file in your default text editor:
